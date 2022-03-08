@@ -28,5 +28,5 @@ function disableInteraction() {
   moving = true;
   setTimeout(() => {
     moving = false;
-  }, 500);
+  }, 300);
 }
