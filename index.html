@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Carousel</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <section aria-label="Newest Photos">
-      <div class="o-carousel">
+      <div class="o-carousel" data-carousel>
         <button class="o-carousel_button -prev" data-carousel-button="prev">
           &#8656;
         </button>
         <button class="o-carousel_button -next" data-carousel-button="next">
           &#8658;
         </button>
-        <ul>
+        <ul data-slides>
           <li class="slide" data-active>
             <img src="./images/cat-1.jpg" alt="cat-1" />
           </li>
