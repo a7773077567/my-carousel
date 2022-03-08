@@ -4,18 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Carousel</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section aria-label="Newest Photos">
       <div class="o-carousel">
-        <button class="o-carousel_button" data-carousel-button="prev">
+        <button class="o-carousel_button -prev" data-carousel-button="prev">
           &#8656;
         </button>
-        <button class="o-carousel_button" data-carousel-button="next">
+        <button class="o-carousel_button -next" data-carousel-button="next">
           &#8658;
         </button>
         <ul>
-          <li class="slide">
+          <li class="slide" data-active>
             <img src="./images/cat-1.jpg" alt="cat-1" />
           </li>
           <li class="slide">
